@@ -10,12 +10,12 @@
 
 	<artifactId>java8-auditing</artifactId>
 	<name>Spring Data JPA - Auditing on Java 8 and Spring 4</name>
-
+	
 	<properties>
 		<spring.version>4.0.1.BUILD-SNAPSHOT</spring.version>
 		<spring-data-jpa.version>1.5.0.BUILD-SNAPSHOT</spring-data-jpa.version>
 	</properties>
-
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -28,23 +28,23 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 	<dependencies>
-
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aspects</artifactId>
 		</dependency>
-
+		
 	</dependencies>
 
-	<repositories>
-
+	<repositories>	
+		
 		<repository>
 			<id>spring-libs-snapshot</id>
 			<url>http://repo.spring.io/libs-snapshot</url>
 		</repository>
-
+		
 	</repositories>
-
+	
 </project>
